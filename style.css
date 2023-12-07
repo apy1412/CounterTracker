@@ -1,3 +1,8 @@
+:root {
+  --backgroundColor: #1d1d1d;
+  --fontColor: teal;
+}
+
 *,
 *::before,
 *::after {
@@ -12,8 +17,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: teal;
-  background-color: #1d1d1d;
+  color: var(--fontColor);
+  background-color: var(--backgroundColor);
   display: grid;
   place-items: center;
   height: 100vh;
@@ -26,7 +31,7 @@ body {
   text-align: center;
   display: grid;
   place-items: center;
-  box-shadow: 0px 0px 10px 5px rgb(56, 57, 57);
+  box-shadow: 0px 0px 5px 2px rgb(56, 57, 57);
   border-radius: 10px;
 }
 
@@ -35,9 +40,9 @@ body {
   height: 75px;
   border-radius: 50%;
   border: 0;
-  box-shadow: 2px 2px 10px 2px teal;
+  box-shadow: 0px 0px 6px 2px var(--fontColor);
   background-color: wheat;
-  color: teal;
+  color: var(--fontColor);
   font-size: 1.8rem;
   cursor: pointer;
   margin-right: 1rem;
