@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: teal;
+  background-color: #1d1d1d;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 50vh;
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 0px 10px 5px rgb(56, 57, 57);
+  border-radius: 10px;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 0;
+  box-shadow: 2px 2px 10px 2px teal;
+  background-color: wheat;
+  color: teal;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.reset {
+  background-color: rgb(151, 21, 21);
+  color: wheat;
+}
